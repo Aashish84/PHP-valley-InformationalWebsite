@@ -1,0 +1,43 @@
+/* #placetovisit{
+    display: none;
+} */
+.placetovisit-post{
+    box-shadow: 0 0 4px 4px #f0efef;
+    padding: 15px;
+}
+.placetovisit-post .placetovisit-image-section{
+    height: 200px;
+}
+.placetovisit-post .placetovisit-title{
+    font-size: 22px;
+}
+.placetovisit-post p,
+.placetovisit-post .placetovisit-title{
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.placetovisit-section{
+    color: #24253a;
+    padding: 30px 0 60px;
+}
+
+.placetovisit-section .section-title{
+    text-transform: uppercase;
+    margin-top: 30px; 
+    margin-bottom: 0;
+    text-align: center;
+}
+.placetovisit-section .placetovisit-post{
+    margin-top: 30px;
+}
+.placetovisit-post p{
+    text-align: justify;
+}
+.placetovisit-post .placetovisit-title>a{
+    color: #24253a;
+    transition: 0.25s;
+}
+.placetovisit-post:hover .placetovisit-title>a{
+    color: #ff2356;
+}

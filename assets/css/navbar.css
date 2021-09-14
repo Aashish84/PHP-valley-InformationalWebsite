@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.header{
+    box-shadow: 0px 0px 5px #888888;
+}
+.wrapper{
+    max-width: 1440px;
+    margin:auto;
+}
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    
+}
+.navbar-links{
+    width:0px;
+    transition: 0.2s;
+    background-color: #f1f1f1;
+    position:absolute;
+    top:100%;
+    left:0%;
+    z-index: 1;
+    overflow: hidden;
+}
+.notify-list{
+    transition: 0.2s;
+    /* transition-timing-function: linear; */
+    width:0px;
+    background-color: #f1f1f1;
+    position: absolute;
+    top:100%;
+    right:0%;
+    overflow: hidden;
+    z-index: 1;
+}
+/*style h1 a*/
+.navbar h1{
+    margin:0px;
+    padding:0 10px;
+    cursor: pointer;
+}
+.navbar h1 a{
+    text-decoration: none;
+    font-family: Brush Script MT;
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    color:#000;
+}
+/*list*/
+.navbar-userInfo ul,.navbar-links ul,.notify-list ul{
+    list-style-type:none;
+    padding:0px;
+}
+.navbar-userInfo ul{
+    display:flex;
+    align-items: center;
+}
+.navbar-userInfo li,.navbar-links li,.notify-list li,.notify-list h3{
+    padding:5px 15px;
+    margin:0px;
+}
+.navbar-links ul :hover,.notify-list a:hover{
+    background-color: rgb(193 224 255);
+}
+.notify-list ul{
+    margin:5px;
+}
+.notify-list li{
+    text-align: center;
+}
+.navbar-userInfo a,.navbar-links a,.notify-list a{
+    text-decoration: none;
+    font-family: lucida console;
+    color:#000;
+    text-transform: capitalize;
+}
+.notify{
+    position:relative;
+}
+.notify .badge{
+    position:absolute;
+    top:-2px;
+    left:7px;
+    border-radius: 50%;
+    background-color: #bd0000;
+    /* padding:2px; */
+    color:#fff;
+}
+
+@media(min-width:800px){
+    .navbar-icon{
+        display:none;
+    }
+    .navbar-links{
+        position: relative;
+        background-color: #fff;
+        width:auto !important;
+    }
+    .navbar-links ul{
+        display:flex;
+        align-items: center;
+    }
+}
+
+/*logo*/
+.logo-svg{
+    position: relative;
+    top :8px;
+    right:0px;
+}
+.logo{
+    height:30px;
+    width:80px;
+    fill:#117ddc;
+}
+.logo-title{
+    position: relative;
+    top :0px;
+    right:25px;
+}
+.logio{
+    font-family: lucida console;
+    text-transform: capitalize;
+    cursor:pointer;
+    transition :0.5s;
+}
+.logio:hover{
+    color:red;
+}

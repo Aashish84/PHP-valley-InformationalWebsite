@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+.logo-svg{
+    padding:20px;
+}
+.logo{
+    fill: #117ddc;
+}
+.valley-sidebar{
+    position: fixed;
+    background-color: #f1f1f1;
+    width: 300px;
+    height: 100%;
+    z-index: 2;
+    left: 0;
+    top: 0;
+}
+.valley-sidebar ul{
+    list-style-type: none;
+    margin: 10px 0px;
+    padding:0px;
+}
+.valley-sidebar li:hover{
+    background-color: #117ddc;   
+}
+.valley-sidebar a{
+    text-transform: capitalize;
+    font-size: 20px;
+    display: block;
+    padding:10px 20px;
+    text-decoration: none;
+    color: #000;
+    
+}
+.valley-content{
+    margin-left: 300px;
+    padding-left: 45px;
+}
+.valley-content a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color:#117ddc;
+    transition : 0.5s;
+}
+.valley-content a:hover{
+    color: #000;
+}

@@ -1,0 +1,43 @@
+.heritages-page{
+    margin: 20px 0px;
+}
+.heritages-page>.container{
+    width:1250px;
+}
+.heritages-post{
+    height:90%;
+    padding: 15px 0px;
+}
+.heritages-post .heritages-image-section{
+   height:50vh;
+}
+
+.heritages-post p{
+    height:100%;
+    overflow-y: scroll;
+    text-align: justify;
+}
+.content-like{
+    padding: 5px;
+    height:10%;
+}
+/* width */
+.heritages-post p::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .heritages-post p::-webkit-scrollbar-track {
+    background: #ffffff;
+    border-radius: 10px;
+  }
+  
+  /* Handle */
+  .heritages-post p::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  .heritages-post p::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

@@ -1,0 +1,73 @@
+.heritage-section h2{
+    border-bottom: #000 double 3px;
+    margin:0px;
+    padding:10px 10px 0px 10px;
+    text-align: center;
+}
+.heritage-section a{
+    text-transform: uppercase;
+    color:#000;
+    transition :0.5s;
+}
+.heritage-section a:hover{
+    color:blue;
+}
+.heritage-post{
+    height: 100%;
+    background-color: #eee;
+    box-shadow: 0px 0px 10px #7a7a7a;
+    padding:10px;
+}
+.heritage-image-section{
+    width:100%;
+    height: 200px;
+}
+.heritage-post h2{
+    text-transform: uppercase;
+    margin:0px;
+    padding: 10px 0px;
+}
+.heritage-post .heritage-seemore{
+    text-align: right;
+    padding: 10px 0px 0px 0px;
+}
+.heritage-post span{
+    padding:0px 5px;
+    border-right: 1px solid #c0c0c0;
+}
+
+.heritage-post p{
+    margin:0px;
+    padding: 10px 0px;
+    text-align: justify; 
+    max-height: 250px;
+    overflow-y: hidden;   
+}
+.heritage-post a{
+    text-decoration: none;
+}
+
+.if-overflow{
+    max-height: 50px;
+    overflow-y: hidden;
+}
+.donttochme{
+    position: relative;
+    top: 10px;
+}
+
+@media(min-width:800px){
+    .heritage-post{
+        max-height: 400px;
+    }
+    .noheight-divbg{
+        height:200px;
+    }
+    .most-viewed{
+        padding:0px;
+    }
+    .most-viewed-image{
+        height: 100%;
+        order: 2;
+    }
+}
