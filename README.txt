@@ -1,4 +1,4 @@
 Dynamic informational website
 
 used:
-html,css,javascript,php,ajaxs
+html,css,javascript,php,ajax
